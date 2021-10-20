@@ -37,7 +37,7 @@ The data will be sent to all challenge participants through email.
 
 ## Contributors
 
-[<img width="300" height="100" src="https://github.com/qq379840315/AliMeeting/blob/main/fig_aishell.jpg"/>](http://www.aishelltech.com/sy)[<img width="300" height="100" src="https://github.com/qq379840315/AliMeeting/blob/main/alibaba.png"/>]
+[<img width="300" height="100" src="https://github.com/qq379840315/AliMeeting/blob/main/fig_aishell.jpg"/>](http://www.aishelltech.com/sy)[<img width="300" height="100" src="https://github.com/qq379840315/AliMeeting/blob/main/alibaba.png"/>](http://www.aishelltech.com/sy)
 
 
 ## Code license 
