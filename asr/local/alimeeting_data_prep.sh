@@ -123,7 +123,8 @@ fi
 
 if [ ${stage} -le 3 ] && [ ${stop_stage} -ge 3 ]; then
     log "stage 3: finali data process"
-
+    ./utils/fix_data_dir.sh $near_dir
+    ./utils/fix_data_dir.sh $far_dir
     utils/copy_data_dir.sh --utt-prefix ${tgt}-near- --spk-prefix ${tgt}-near- \
         $near_dir data/${tgt}_Ali_near
     utils/copy_data_dir.sh --utt-prefix ${tgt}-far- --spk-prefix ${tgt}-far- \
