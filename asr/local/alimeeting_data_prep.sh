@@ -84,7 +84,9 @@ if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
     utils/filter_scp.pl -f 1 $near_dir/text $near_dir/segments_all | sort -u > $near_dir/segments
     sed -e 's/ $//g' $near_dir/text> $near_dir/tmp1
     sed -e 's/！//g' $near_dir/tmp1> $near_dir/tmp2
-    sed -e 's/？//g' $near_dir/tmp2> $near_dir/text
+    sed -e 's/(\~)//g' $near_dir/tmp2> $near_dir/tmp3
+    sed -e 's/(SIL)//g' $near_dir/tmp3> $near_dir/tmp4
+    sed -e 's/(\/OVERLAP)//g' $near_dir/tmp4> $near_dir/text
 
 fi
 
@@ -117,7 +119,10 @@ if [ ${stage} -le 2 ] && [ ${stop_stage} -ge 2 ]; then
     sed -e 's/SRC/$/g' $far_dir/text> $far_dir/tmp1
     sed -e 's/ $//g' $far_dir/tmp1> $far_dir/tmp2
     sed -e 's/！//g' $far_dir/tmp2> $far_dir/tmp3
-    sed -e 's/？//g' $far_dir/tmp3> $far_dir/text
+    sed -e 's/？//g' $far_dir/tmp3> $far_dir/tmp4
+    sed -e 's/(\~)//g' $far_dir/tmp4> $far_dir/tmp5
+    sed -e 's/(SIL)//g' $far_dir/tmp5> $far_dir/tmp6
+    sed -e 's/(\/OVERLAP)//g' $far_dir/tmp6> $far_dir/text
 fi
 
 
