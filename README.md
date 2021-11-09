@@ -33,7 +33,18 @@ If you use AliMeeting dataset and baseline system of M2MeT Challenge in a public
     }
 The paper is available at https://arxiv.org/abs/2110.07393
 
-The data will be sent to all challenge participants through email.
+The data download method will be sent to registered challenge participants via email.
+
+## Organizing Committee 
+* Lei Xie, AISHELL Foundation, China, lxie@nwpu.edu.cn
+* Bin Ma, Principal Engineer at Alibaba, Singapore, b.ma@alibaba-inc.com
+* DeLiang Wang, Professor, Ohio State University, USA, dwang@cse.ohio-state.edu
+* Zheng-Hua Tan, Professor, Aalborg University, Denmark, zt@es.aau.dk
+* Kong Aik Lee, Senior Scientist, Institute for Infocomm Research, A*STAR, Singapore, kongaik.lee@ieee.org
+* Zhijie Yan, Principal Engineer at Alibaba, China, zhijie.yzj@alibaba-inc.com
+* Yanmin Qian, Associate Professor, Shanghai Jiao Tong University, China,
+yanminqian@sjtu.edu.cn
+* Hui Bu, CEO, AIShell Inc., China, buhui@aishelldata.com
 
 ## Contributors
 
