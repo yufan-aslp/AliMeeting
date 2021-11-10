@@ -1,4 +1,4 @@
-# AliMeeting
+# M2MeT challenge baseline -- AliMeeting
 
 
 This project provides the baseline system recipes for the ICASSP 2020 Multi-channel Multi-party Meeting Transcription Challenge (M2MeT). The challenge mainly consists of two tracks, named ***Automatic Speech Recognition (ASR)*** and ***Speaker Diarization***. For each track, detailed descriptions can be found in its corresponding directory. The goal of this project is to simplify the training and evaluation procedures and make it flexible for participants to reproduce the baseline experiments and develop novelty methods.  
@@ -40,7 +40,7 @@ Our paper is available at https://arxiv.org/abs/2110.07393
 The data download method will be sent to registered challenge participants via email.
 
 ## Organizing Committee 
-* Lei Xie, AISHELL Foundation, China, lxie@nwpu.edu.cn
+* Lei Xie, AISHELL Foundation, China, xielei21st@gmail.com
 * Bin Ma, Principal Engineer at Alibaba, Singapore, b.ma@alibaba-inc.com
 * DeLiang Wang, Professor, Ohio State University, USA, dwang@cse.ohio-state.edu
 * Zheng-Hua Tan, Professor, Aalborg University, Denmark, zt@es.aau.dk
