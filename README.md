@@ -1,29 +1,32 @@
 # AliMeeting
 
 
-The project is associated with the recently-launched ICASSP 2022 Multi-channel Multi-party Meeting Transcription Challenge (M2MeT) to provide participants with baseline systems for speech recognition and speaker diarization in conference scenario. The project, served as baseline, is divided into two parts, named ***speaker*** and ***asr***. A detailed description of each system is in their respective README.md. The goal of this project is to simplify the training and evaluation procedure and make it easy and flexible for participants to carry out experiments and verify neural network based methods.
+This project provides the baseline system recipes for the ICASSP 2020 Multi-channel Multi-party Meeting Transcription Challenge (M2MeT). The challenge mainly consists of two tracks, named automatic speech recognition (ASR)(***asr***) and speaker diarization(***speaker***). For each track, detailed descriptions can be found in its corresponding directory. The goal of this project is to simplify the training and evaluation procedures and make it flexible for participants to reproduce the baseline experiments and develop novelty methods.  
+
 
 ## Setup
 
 ```shell
 git clone https://github.com/qq379840315/AliMeeting.git
 ```
+
 ## Introduction
 
-* [ASR](asr): Train and evaluate the asr model. 
-* [Speaker Diarization](speaker): Generate the speaker diarization results. 
+* [Speech Recognition Track](asr): Follow the detailed steps in `./asr`. 
+* [Speaker Diarization Track](speaker): Follow the detailed steps in `./speaker`. 
 
 ## General steps
-1. Generate training data for speaker diarization and asr model and evaluation data for both track.
-2. Do speaker diarization to generate rttm which includes vad and speaker diarization information, and then generate DER results.
-3. Train single-speaker and multi-speaker ASR model respectively.
-4. Generate CER results for both ASR models.
+
+1.Prepare the training data for speaker diarization and ASR model, respectively
+2.Follow the running steps of the speaker diarization experiment and obtain the `rttm` file. The `rttm` file includes the voice activity detection (VAD) and speaker diarization results, which will be used to compute the final Diarization Error Rate (DER) scores.
+3.For ASR track, we can train the single-speaker or multi-speaker ASR models. The evaluation metric of ASR systems is Character Error Rate (CER).
 
 
 
 
 ## Citation
-If you use AliMeeting dataset and baseline system of M2MeT Challenge in a publication, please cite the following paper:
+
+If you use the challenge dataset or our baseline systems, please consider citing the following:
 
     @article{yu2021m2met,
     title={M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge},
@@ -31,7 +34,8 @@ If you use AliMeeting dataset and baseline system of M2MeT Challenge in a public
     journal={arXiv preprint arXiv:2110.07393},
     year={2021}
     }
-The paper is available at https://arxiv.org/abs/2110.07393
+    
+Our paper is available at https://arxiv.org/abs/2110.07393
 
 The data download method will be sent to registered challenge participants via email.
 
