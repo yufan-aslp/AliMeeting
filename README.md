@@ -1,7 +1,7 @@
 # AliMeeting
 
 
-This project provides the baseline system recipes for the ICASSP 2020 Multi-channel Multi-party Meeting Transcription Challenge (M2MeT). The challenge mainly consists of two tracks, named automatic speech recognition (ASR)(***asr***) and speaker diarization(***speaker***). For each track, detailed descriptions can be found in its corresponding directory. The goal of this project is to simplify the training and evaluation procedures and make it flexible for participants to reproduce the baseline experiments and develop novelty methods.  
+This project provides the baseline system recipes for the ICASSP 2020 Multi-channel Multi-party Meeting Transcription Challenge (M2MeT). The challenge mainly consists of two tracks, named ***automatic speech recognition (ASR)*** and speaker ***diarization***. For each track, detailed descriptions can be found in its corresponding directory. The goal of this project is to simplify the training and evaluation procedures and make it flexible for participants to reproduce the baseline experiments and develop novelty methods.  
 
 
 ## Setup
