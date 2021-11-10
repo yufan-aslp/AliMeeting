@@ -7,7 +7,7 @@ This project provides the baseline system recipes for the ICASSP 2020 Multi-chan
 ## Setup
 
 ```shell
-git clone https://github.com/qq379840315/AliMeeting.git
+git clone https://github.com/yufan-aslp/AliMeeting.git
 ```
 
 ## Introduction
