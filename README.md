@@ -17,9 +17,9 @@ git clone https://github.com/yufan-aslp/AliMeeting.git
 
 ## General steps
 
-1.Prepare the training data for speaker diarization and ASR model, respectively
-2.Follow the running steps of the speaker diarization experiment and obtain the `rttm` file. The `rttm` file includes the voice activity detection (VAD) and speaker diarization results, which will be used to compute the final Diarization Error Rate (DER) scores.
-3.For ASR track, we can train the single-speaker or multi-speaker ASR models. The evaluation metric of ASR systems is Character Error Rate (CER).
+1. Prepare the training data for speaker diarization and ASR model, respectively
+2. Follow the running steps of the speaker diarization experiment and obtain the `rttm` file. The `rttm` file includes the voice activity detection (VAD) and speaker diarization results, which will be used to compute the final Diarization Error Rate (DER) scores.
+3. For ASR track, we can train the single-speaker or multi-speaker ASR models. The evaluation metric of ASR systems is Character Error Rate (CER).
 
 
 
