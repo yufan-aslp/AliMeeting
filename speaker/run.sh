@@ -37,6 +37,8 @@ if [ $stage -le 1 ] && [ ${stop_stage} -ge 1 ]; then
     # Prepare the AliMeeting data
     echo "Prepare Alimeeting data"
     find $wav_dir -name "*\.wav" > $work_dir/wavlist
+    sort  $work_dir/wavlist > $work_dir/tmp
+    cp $work_dir/tmp $work_dir/wavlist
     awk -F '/' '{print $NF}' $work_dir/wavlist | awk -F '.' '{print $1}' > $work_dir/uttid
     paste $work_dir/uttid $work_dir/wavlist > $work_dir/wav.scp 
     paste $work_dir/uttid $work_dir/uttid > $work_dir/utt2spk
@@ -110,6 +112,8 @@ fi
 if [ $stage -le 5 ] && [ ${stop_stage} -ge 5 ]; then
     echo "Process textgrid to obtain rttm label"
     find -L $textgrid_dir -iname "*.TextGrid" >  $work_dir/textgrid.flist
+    sort  $work_dir/textgrid.flist  > $work_dir/tmp
+    cp $work_dir/tmp $work_dir/textgrid.flist 
     paste $work_dir/uttid $work_dir/textgrid.flist > $work_dir/uttid_textgrid.flist
     while read text_file
     do
