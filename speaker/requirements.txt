@@ -9,3 +9,4 @@ kaldi_io
 torch==1.6.0
 tabulate
 intervaltree
+textgrid
