@@ -47,39 +47,18 @@ class ExchangeChannal:
 	    
 		fileArray = []
 		newChannalArray = []
-
-		# with wave.open(strInFile) as wfile:
-		# 	waveRate = wfile.getframerate()
-		# 	sampleWidth = wfile.getsampwidth()
-		# 	channelCnt = wfile.getnchannels()
 		namearray = os.path.basename(strInFile).split('.')
-		
-		# File = wavio.read(strInFile)
-		# print(File.data.shape)
-
-		# for i in range(channelCnt) :
-		# 	channel = File.data[:,i]
-		# 	fileName = namearray[0] + "_ch_" + str(i+1) + ".wav"
-		# 	wavio.write(fileName, channel, waveRate)
-		# 	fileArray.append([fileName, 0])
 
 		for i in range(totalChannal) :
 			fileName = outDir + '/' + namearray[0] + "_ch_" + str(i+1) + ".wav"
 			self.__splitChannel(strInFile, fileName, i+1)
 			fileArray.append([fileName, 0])
 
-		#print fileArray
-		#print "\r\n"
-
-		#print channalArray
-		#print "\r\n"
-
 		for i in range(len(channalArray)) :
 			for j in range(totalChannal) :
 				if fileArray[j][1] == 1 :
 					continue
 				if (j == channalArray[i] - 1) :
-					#print 'get ' + str(j) + '\n'
 					fileArray[j][1] = 1
 					newChannalArray.append(fileArray[j][0])
 					break
@@ -88,8 +67,6 @@ class ExchangeChannal:
 		self.__mergeWave(newChannalArray, outFile)
 
 		self.__removeTmpFile(newChannalArray)
-
-		#print newChannalArray
 
 		return outFile
 
