@@ -14,6 +14,7 @@ git clone https://github.com/yufan-aslp/AliMeeting.git
 
 * [Speech Recognition Track](asr): Follow the detailed steps in `./asr`. 
 * [Speaker Diarization Track](speaker): Follow the detailed steps in `./speaker`. 
+  
 
 ## General steps
 
@@ -28,16 +29,27 @@ git clone https://github.com/yufan-aslp/AliMeeting.git
 
 If you use the challenge dataset or our baseline systems, please consider citing the following:
 
-    @article{yu2021m2met,
-    title={M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge},
-    author={Yu, Fan and Zhang, Shiliang and Fu, Yihui and Xie, Lei and Zheng, Siqi and Du, Zhihao and Huang, Weilong and Guo, Pengcheng and Yan, Zhijie and Ma, Bin and others},
-    journal={arXiv preprint arXiv:2110.07393},
-    year={2021}
+    @inproceedings{Yu2022M2MeT,
+      title={M2{M}e{T}: The {ICASSP} 2022 Multi-Channel Multi-Party Meeting Transcription Challenge},
+      author={Yu, Fan and Zhang, Shiliang and Fu, Yihui and Xie, Lei and Zheng, Siqi and Du, Zhihao and Huang, Weilong and Guo, Pengcheng and Yan, Zhijie and Ma, Bin and Xu, Xin and Bu, Hui},
+      booktitle={Proc. ICASSP},
+      year={2022},
+      organization={IEEE}
     }
-    
-Our paper is available at https://arxiv.org/abs/2110.07393
 
-The data download method will be sent to registered challenge participants via email.
+    @inproceedings{Yu2022Summary,
+      title={Summary On The {ICASSP} 2022 Multi-Channel Multi-Party Meeting Transcription Grand Challenge},
+      author={Yu, Fan and Zhang, Shiliang and Guo, Pengcheng and Fu, Yihui and Du, Zhihao and Zheng, Siqi and Huang, Weilong and Xie, Lei  and Tan, Zheng-Hua and Wang, DeLiang and Qian, Yanmin and Lee, Kong Aik and Yan, Zhijie and Ma, Bin and Xu, Xin and Bu, Hui},
+      booktitle={Proc. ICASSP},
+      year={2022},
+      organization={IEEE}
+    }
+
+Challenge introduction paper: M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge (https://arxiv.org/abs/2110.07393?spm=a3c0i.25445127.6257982940.1.111654811kxLMY&file=2110.07393)
+Challenge summary paper: Summary On The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Grand Challenge (https://arxiv.org/abs/2202.03647?spm=a3c0i.25445127.6257982940.2.111654811kxLMY&file=2202.03647)
+
+
+The data download at https://www.openslr.org/119
 
 ## Organizing Committee 
 * Lei Xie, AISHELL Foundation, China, xielei21st@gmail.com
