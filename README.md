@@ -46,6 +46,8 @@ If you use the challenge dataset or our baseline systems, please consider citing
     }
 
 Challenge introduction paper: M2MeT: The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Challenge (https://arxiv.org/abs/2110.07393?spm=a3c0i.25445127.6257982940.1.111654811kxLMY&file=2110.07393)
+
+
 Challenge summary paper: Summary On The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Grand Challenge (https://arxiv.org/abs/2202.03647?spm=a3c0i.25445127.6257982940.2.111654811kxLMY&file=2202.03647)
 
 
