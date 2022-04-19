@@ -66,8 +66,7 @@ yanminqian@sjtu.edu.cn
 
 ## Contributors
 
-[<img width="300" height="100" src="https://github.com/qq379840315/AliMeeting/blob/main/alibaba.png"/>](https://damo.alibaba.com/labs/speech/?lang=zh)[<img width="300" height="100" src="https://github.com/qq379840315/AliMeeting/blob/main/fig_aishell.jpg"/>](http://www.aishelltech.com/sy)
-
+[<img width="300" height="100" src="https://github.com/qq379840315/AliMeeting/blob/main/alibaba.png"/>](https://damo.alibaba.com/labs/speech/?lang=zh)[<img width="300" height="100" src="https://github.com/qq379840315/AliMeeting/blob/main/fig_aishell.jpg"/>](http://www.aishelltech.com/sy)[<img width="300" height="100" src="https://github.com/qq379840315/AliMeeting/blob/main/ISCA.png"/>](https://isca-speech.org/iscaweb/)
 
 ## Code license 
 
