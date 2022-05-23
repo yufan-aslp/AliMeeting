@@ -53,6 +53,9 @@ Challenge summary paper: Summary On The ICASSP 2022 Multi-Channel Multi-Party Me
 
 The data download at https://www.openslr.org/119
 
+M2MeT challege codalab(Open evaluation platform for Eval and Test sets of both Tracks): https://codalab.lisn.upsaclay.fr/competitions/?q=M2MeT
+
+
 ## Organizing Committee 
 * Lei Xie, AISHELL Foundation, China, xielei21st@gmail.com
 * Bin Ma, Principal Engineer at Alibaba, Singapore, b.ma@alibaba-inc.com
