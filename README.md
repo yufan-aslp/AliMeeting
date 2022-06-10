@@ -51,7 +51,11 @@ Challenge introduction paper: M2MeT: The ICASSP 2022 Multi-Channel Multi-Party M
 Challenge summary paper: Summary On The ICASSP 2022 Multi-Channel Multi-Party Meeting Transcription Grand Challenge (https://arxiv.org/abs/2202.03647?spm=a3c0i.25445127.6257982940.2.111654811kxLMY&file=2202.03647)
 
 
-The data download at https://www.openslr.org/119
+The AliMeeting data download at https://www.openslr.org/119
+
+
+Room config of AliMeeting Train set download at https://speech-lab-share-data.oss-cn-shanghai.aliyuncs.com/AliMeeting/AliMeeting_Trainset_Room.xlsx
+
 
 M2MeT challege codalab(Open evaluation platform for Eval and Test sets of both Tracks): https://codalab.lisn.upsaclay.fr/competitions/?q=M2MeT
 
